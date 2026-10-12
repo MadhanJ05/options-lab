@@ -1,0 +1,11 @@
+filter,rows_remaining
+raw rows,9770
+5 <= days to expiry <= 760,8537
+bid > 0 and ask > bid,7393
+relative spread <= 25%,7065
+mid >= $0.05,7017
+volume >= 10,2885
+open interest >= 100,2467
+out-of-the-money side only,1994
+no vertical-spread arbitrage across strikes,1991
+implied vol solved,1991

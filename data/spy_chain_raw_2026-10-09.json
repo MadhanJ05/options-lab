@@ -1,0 +1,13 @@
+{
+  "ticker": "SPY",
+  "downloaded_at_utc": "2026-10-12T04:11:32+00:00",
+  "quote_date": "2026-10-09",
+  "spot_close": 778.5700073242188,
+  "irx_discount_yield_pct": 4.057000160217285,
+  "irx_date": "2026-10-09",
+  "risk_free_cc": 0.04134584291296228,
+  "n_raw_rows": 9770,
+  "n_expiries": 30,
+  "vix_close_on_quote_date": 14.84000015258789,
+  "vix_close_added_note": "VIX close for quote_date fetched separately on 2026-10-12, a few minutes after the chain download; later --refresh runs record it automatically"
+}

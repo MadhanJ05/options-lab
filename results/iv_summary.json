@@ -1,0 +1,40 @@
+{
+  "ticker": "SPY",
+  "downloaded_at_utc": "2026-10-12T04:11:32+00:00",
+  "quote_date": "2026-10-09",
+  "spot_close": 778.5700073242188,
+  "irx_discount_yield_pct": 4.057000160217285,
+  "irx_date": "2026-10-09",
+  "risk_free_cc": 0.04134584291296228,
+  "n_raw_rows": 9770,
+  "n_expiries": 30,
+  "vix_close_on_quote_date": 14.84000015258789,
+  "vix_close_added_note": "VIX close for quote_date fetched separately on 2026-10-12, a few minutes after the chain download; later --refresh runs record it automatically",
+  "clean_config": {
+    "min_days": 5.0,
+    "max_days": 760.0,
+    "max_rel_spread": 0.25,
+    "min_mid": 0.05,
+    "min_volume": 10,
+    "min_open_interest": 100,
+    "n_parity_strikes": 10
+  },
+  "n_clean_quotes": 1991,
+  "n_expiries_clean": 23,
+  "iv_solver_status_counts": {
+    "newton": 1991
+  },
+  "iv_failures": {},
+  "n_dropped_static_arbitrage": 3,
+  "smile_expiries": [
+    "2026-10-16",
+    "2026-11-06",
+    "2026-11-30",
+    "2026-12-31",
+    "2027-03-31",
+    "2027-09-17"
+  ],
+  "median_abs_diff_vs_yahoo_iv": 0.01188075493114582,
+  "spy_atm_iv_30d_interpolated": 0.12048619367878442,
+  "vix_minus_spy_atm_30d_vol_pts": 2.791380784709448
+}
